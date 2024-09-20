@@ -1,15 +1,19 @@
 import { Logo } from "./Logo";
+import datos from '../datos.json'
 
 export function Header(){
     return <div className="my-2 text-dark d-flex justify-content-between">
                 <div className="d-flex">
                     <Logo></Logo>
-                    <p>My Company</p>
+                    <p className="mx-2">{datos.header.name}</p>
                 </div>
               
                 <div >
-                    <a  className="mx-3 text-decoration-none" href="#">blog</a>
-                    <a className="text-decoration-none" href="#">youtube</a>
+                    {
+                        datos.header.links.map((item, index) =>
+                            <a key={index}  className="mx-3 text-decoration-none" href={item.url}>{item.text}</a>
+                        )
+                    }
                 </div>
                 
     </div> 
