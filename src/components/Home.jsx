@@ -4,7 +4,7 @@ import { Prices  } from "./Prices";
 import { Footer  } from "./Footer";  
 
 export function Home(){
-    return <div> 
+    return <div className="container"> 
                 <Header></Header>
                 <Carousel></Carousel>
                 <Prices></Prices>
