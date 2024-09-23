@@ -11,5 +11,99 @@
                 "url": "#"
             }
         ]
-    }
+    },
+    "prices":[
+        {
+         "title":"Free",
+         "price": "$0",
+         "by": "month",
+         "textButton":"Sing up for free",
+         "features":[
+                "10 users included",
+                "2GB",
+                "Email",
+                "Help Center cripto"
+        ]},
+        {
+            "title":"Pro",
+            "price": "$0",
+            "by": "month",
+            "textButton":"Sing up for free",
+            "features":[
+                   "10 users included",
+                   "2GB",
+                   "Email",
+                   "Help Center cripto"
+           ]},
+           {
+            "title":"Enterprise",
+            "price": "$0",
+            "by": "month",
+            "textButton":"Sing up for free",
+            "features":[
+                   "10 users included",
+                   "2GB",
+                   "Email",
+                   "Help Center cripto"
+           ]}
+    ],
+    "carousel":[
+        {
+            "text":"New service in the world",
+            "url": "../src/assets/carousel-1.jpg",
+            "alt": "Alternative text"
+        },
+        {
+            "text":"New service in the world",
+            "url": "../src/assets/carousel-2.jpg",
+            "alt": "Alternative text"
+        },
+        {
+            "text":"New service in the world",
+            "url": "../src/assets/carousel-3.jpg",
+            "alt": "Alternative text"
+        }
+    ],
+    "footer":[
+        {
+            "title": "Social",
+            "links": [
+                {
+                    "titulo": "youtube",
+                    "url":"#"
+                },
+                {
+                    "titulo": "twitter",
+                    "url":"#"
+                },
+                {
+                    "titulo": "instagram",
+                    "url":"#"
+                }
+            ]
+        },
+        {
+            "title": "Help",
+            "links": [
+                {
+                    "titulo": "Contact",
+                    "url":"#"
+                },
+                {
+                    "titulo": "Email",
+                    "url":"#"
+                },
+                {
+                    "titulo": "Privacy",
+                    "url":"#"
+                },
+                {
+                    "titulo": "Terms and Conditions",
+                    "url":"#"
+                }
+            ]
+
+        }
+    ]
+
 }
