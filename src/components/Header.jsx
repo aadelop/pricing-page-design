@@ -5,7 +5,7 @@ export function Header(){
     return <div className="my-2 text-dark d-flex justify-content-between">
                 <div className="d-flex">
                     <Logo></Logo>
-                    <p className="mx-2">{datos.header.name}</p>
+                    <h4 className="mx-2">{datos.header.name}</h4>
                 </div>
               
                 <div >
