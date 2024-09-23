@@ -1,12 +1,12 @@
 import datos from '../datos.json'
 
-function Section(data, key){
+function Section({data}, key){
     
 
     return <div key={key}>
-            <h5>{data.data.title}</h5>
+            <h5>{data.title}</h5>
             <ul className="nav flex-column">
-                {data.data.links.map((i, index) =>
+                {data.links.map((i, index) =>
                         <li key={index}><a className='text-decoration-none' href={i.url}>{i.titulo}</a></li>
                  ) }
             </ul>
