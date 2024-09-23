@@ -1,0 +1,10 @@
+.carousel-inner img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-item .image-text h1{
+    background-color: #6c757d75 ;
+    color: white;
+}
